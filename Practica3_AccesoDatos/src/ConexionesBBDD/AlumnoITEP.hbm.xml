@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	
+	<hibernate-mapping>
+	
+		<class name="AlumnoITEP" table="alumnos" >
+		
+			<id column="Id" name="id" type="integer"/>
+			<property name="nombre" />
+			<property name="apellido1" />
+			<property name="apellido2" />
+			
+		</class>
+		
+	</hibernate-mapping>
